@@ -1,6 +1,8 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVAutoRatioPro", "UVAutoRatioPro.vcproj", "{681412B0-F197-4A2F-9263-DEA2E8690146}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVAutoRatioPro", "UVAutoRatioPro.vcxproj", "{681412B0-F197-4A2F-9263-DEA2E8690146}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,9 +129,10 @@ Global
 		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2015|Win32.ActiveCfg = Release Maya2015|Win32
 		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2015|x64.ActiveCfg = Release Maya2015|x64
 		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2015|x64.Build.0 = Release Maya2015|x64
-		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2016|Win32.ActiveCfg = Release Maya2016|x64
-		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2016|x64.ActiveCfg = Release Maya2016|x64
-		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2016|x64.Build.0 = Release Maya2016|x64
+		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2016|Win32.ActiveCfg = Release Maya2015|Win32
+		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2016|Win32.Build.0 = Release Maya2015|Win32
+		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2016|x64.ActiveCfg = Release Maya2015|x64
+		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya2016|x64.Build.0 = Release Maya2015|x64
 		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya60|Win32.ActiveCfg = Release Maya60|Win32
 		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya60|Win32.Build.0 = Release Maya60|Win32
 		{681412B0-F197-4A2F-9263-DEA2E8690146}.Release Maya60|x64.ActiveCfg = Release Maya60|x64

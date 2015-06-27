@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4ba009a3-c644-4c20-b0eb-cce49303d5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{a8a18eed-72aa-4606-b80b-756c68104f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\UVSpringLayout">
+      <UniqueIdentifier>{4bc736b6-fe52-4e0b-8181-c30cf81aa8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\PCH">
+      <UniqueIdentifier>{82d10818-ce8d-438e-ac0e-5d493dba3ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{f7b8a29c-db09-4726-8250-8ec45b460e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\GetUVShellSelectionStrings Command">
+      <UniqueIdentifier>{b60dcdb5-9543-41a9-9845-df21d8e7243f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\GetSurfaceUVArea Command">
+      <UniqueIdentifier>{d6211563-9917-4c0f-bc81-2701f8d47260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\UVAutoRatio Command">
+      <UniqueIdentifier>{17020ae1-31f4-41fc-8ea6-a4966f9dd438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{4094a709-a634-4efc-b8b0-1eb71899f288}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UVAutoRatioPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MayaPlugin.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MayaUtility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="UVSpringLayout.cpp">
+      <Filter>Source Files\Utility\UVSpringLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="MayaPCH.cpp">
+      <Filter>Source Files\Utility\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="GetUVShellSelectionStrings.cpp">
+      <Filter>Source Files\Commands\GetUVShellSelectionStrings Command</Filter>
+    </ClCompile>
+    <ClCompile Include="GetSurfaceUVArea.cpp">
+      <Filter>Source Files\Commands\GetSurfaceUVArea Command</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshProcessor.cpp">
+      <Filter>Source Files\Commands\UVAutoRatio Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor.cpp">
+      <Filter>Source Files\Commands\UVAutoRatio Command</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellProcessor.cpp">
+      <Filter>Source Files\Commands\UVAutoRatio Command</Filter>
+    </ClCompile>
+    <ClCompile Include="UVAutoRatioPro.cpp">
+      <Filter>Source Files\Commands\UVAutoRatio Command</Filter>
+    </ClCompile>
+    <ClCompile Include="UVAutoRatioPro_Setup.cpp">
+      <Filter>Source Files\Commands\UVAutoRatio Command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UVAutoRatioPlugin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MayaPlugin.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MayaUtility.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="UVSpringLayout.h">
+      <Filter>Source Files\Utility\UVSpringLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="MayaPCH.h">
+      <Filter>Source Files\Utility\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="GetUVShellSelectionStrings.h">
+      <Filter>Source Files\Commands\GetUVShellSelectionStrings Command</Filter>
+    </ClInclude>
+    <ClInclude Include="GetSurfaceUVArea.h">
+      <Filter>Source Files\Commands\GetSurfaceUVArea Command</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellProcessor.h">
+      <Filter>Source Files\Commands\UVAutoRatio Command</Filter>
+    </ClInclude>
+    <ClInclude Include="UVAutoRatioPro.h">
+      <Filter>Source Files\Commands\UVAutoRatio Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\module\UVAutoRatio2ProModule.txt">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\UVAutoRatio2ProWindowsModule.txt">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioBase.mel">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioBase.res.mel">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioPro.res.mel">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioPro_Inspector.mel">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioPro_Utility.mel">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioProUI.mel">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioProUI_AboutTab.mel">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioProUI_MainTab.mel">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioProUI_RatioPresets.mel">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\module\scripts\UVAutoRatioProUI_SettingsTab.mel">
+      <Filter>Scripts</Filter>
+    </None>
+  </ItemGroup>
+</Project>
