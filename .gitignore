@@ -36,3 +36,5 @@
 *.suo
 *.user
 BuildLog.htm
+UVAutoRatio/ipch/
+UVAutoRatio/x64/
